@@ -1,0 +1,13 @@
+This is a rough example of doing a global regex on any communication coming through a Slack server.
+It will capture any messages, even private, and run the regex. If it finds any matches, it will append the link to the message.
+
+Requirements:
+1. Python 3.5
+2. python-slackclient - http://python-slackclient.readthedocs.io/en/latest/?badge=latest
+
+Install:
+1. pip install slackclient
+2. Create a token.txt file with your slack client token in it.
+
+Run:
+1. python main.py
